@@ -1,0 +1,39 @@
+
+.main-div{
+    direction: rtl;
+    right: 20px;
+    font-family: "Droid Sans Mono", monospace;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: url("https://img.freepik.com/free-photo/soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner_1258-72429.jpg");
+    margin: 0;
+    padding: 0;
+    min-width: 900px;
+    /*background-image: url("../images/backgroundImage.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.glowing-text-dynamic {
+    margin-right: 50px;
+    font-size: 50px;
+    border-width: 300px;
+    border-color: gold;
+    color: #fff;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px white;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+}
+.form{
+
+}

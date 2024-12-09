@@ -1,0 +1,96 @@
+.counter-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.counter-input {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid white;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+    border-radius: 5%;
+    font-size: 34px;
+    background-color: #ffe6f0;
+    text-shadow: #de6fa1 2px 3px 4px;
+}
+.counter-input:hover {
+    box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px #ff4da6;
+}
+.counter-button {
+    width: 60px;
+    height: 40px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.counter-button:hover {
+    background-color: #ff99c2;
+}
+
+.counter-button:disabled {
+    background-color: #ffcce6;
+    cursor: not-allowed;
+}
+.header{
+    font-family: "Droid Sans Mono", monospace;
+    font-size: 34px;
+    font-weight: bold;
+}
+.main-container {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.directions{
+    font-family: "Droid Sans Mono", monospace;
+    color: red;
+    margin-top: 15px;
+    font-size: 34px;
+}
+
+
+   .save_button {
+       border-radius: 35px;
+       border: none;
+       background-color: transparent;
+       color: black;
+       cursor: pointer;
+       display: inline-block;
+       font-weight: bold;
+       font-family: "Droid Sans Mono", monospace;
+       font-size: 34px;
+       height: 40px;
+       line-height: 20px;
+       list-style: none;
+       margin: 10px;
+       outline: none;
+       padding: 10px 16px;
+       position: relative;
+       text-align: center;
+       text-decoration: none;
+       transition: color 100ms;
+        vertical-align: baseline;
+       -webkit-user-select: none;
+       touch-action: manipulation;
+      }
+
+.save_button:hover,
+.save_button:focus {
+    box-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+    background-color: #77DD77;
+
+}
+
