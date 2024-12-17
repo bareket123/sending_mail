@@ -6,7 +6,7 @@ import DropdownMenu from "./Screens/DropdownMenu";
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={"sending_mail"}>
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/DaysMenu" element={<DaysMenu/>} />
